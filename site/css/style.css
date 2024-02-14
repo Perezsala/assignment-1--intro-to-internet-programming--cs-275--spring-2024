@@ -47,7 +47,7 @@ font-family: "Bebas Neue", sans-serif;
 
 .nav-button-p {
   position: fixed;
-  bottom: 20px; 
+  bottom: 20px;
   left: 20px;
   display: block;
   text-align: center;
@@ -62,6 +62,24 @@ font-family: "Bebas Neue", sans-serif;
   background-color: #ddd;
 }
 
+
+.nav-button-p2 {
+  position: fixed;
+  top: 20px;
+  left: 20px;
+  display: block;
+  text-align: center;
+  padding: 5px 15px;
+  background-color: #fff;
+  color: #88664A;
+  text-decoration: none;
+  border-radius: 10px;
+}
+
+.nav-button-p2:hover {
+  background-color: #ddd;
+}
+
 .page-text{
   font-family: "Oxygen", sans-serif;
   text-align: center;
@@ -73,10 +91,42 @@ font-family: "Bebas Neue", sans-serif;
   margin-right: auto;
   line-height: 2.0;
 }
+nav ol {
+  list-style-type: decimal;
+  padding: 0;
+  margin-left: 28px;
 
 
+}
+
+nav {
+  margin-top: 25px;
+  margin-left: 20px;
+
+}
 
 
+li {
+  margin-bottom: 30px;
+  margin-top: 30px;
+  font-size: 1.4em;
 
 
+}
 
+li a {
+  text-decoration: none;
+
+}
+
+.context
+{
+
+  margin: 20px;
+  padding: 0;
+  display: flex;
+  flex-direction: column; /* Stack elements vertically */
+  align-items: center;
+  justify-content: flex-start; /* Align items to the top */
+  min-height: 100vh;
+}
